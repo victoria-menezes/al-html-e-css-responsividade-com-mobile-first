@@ -1,0 +1,25 @@
+:root {
+    --primary-color:#ebecee;
+    --secondary-color:#fff;
+    --tertiary-color: #002f52;
+    
+    --primary-accent-color:#eb9800;
+    --secondary-accent-color:#326589;
+    --tertiary-accent-color:#858585;
+
+    --primary-font:sans-serif;
+    --secondary-font: serif;
+
+    --general-font-size:1rem;
+    --h1-font-size:2rem;
+    --h2-font-size:1.5rem;
+    --small-font-size: 0.75rem;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+h1{
+    background-color: var(--secondary-color);
+}
