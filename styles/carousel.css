@@ -1,0 +1,10 @@
+.carousel__title{
+    color:var(--primary-accent-color);
+    background-color:var(--secondary-color);
+    text-align:center;
+    text-transform: uppercase;
+
+    font-size: var(--font-size-h2);
+    font-weight:var(--font-weight-bold);
+    padding: 1em 0 0.5em 0;
+}
