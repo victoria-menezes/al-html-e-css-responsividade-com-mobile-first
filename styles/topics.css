@@ -29,3 +29,14 @@
     font-weight:var(--font-weight-bold);
     font-size:var(--font-size-small);
 }
+
+
+@media screen and (min-width: 1024px){
+    .topics__title{
+        font-size: var(--font-size-h2);
+    }
+
+    .topics__list__item__link{
+        font-size: var(--font-size-h2);
+    }
+}
