@@ -37,6 +37,7 @@
     position:absolute; /* nos permite movimentar o elemento de acordo com seu pai não static */
     top:100%;
     width:60vw;
+    z-index:2;
 }
 
 .container__button:checked ~ .menu-list{
@@ -104,6 +105,15 @@
     }
 
     .container__image--transparent{
+        display:none;
+    }
+
+    .options__button:checked ~ .menu-list{
+        display:block;
+        width:auto;
+    }
+
+    .options__button{
         display:none;
     }
 }
