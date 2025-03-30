@@ -43,3 +43,14 @@ hr{
         color:var(--quarternary-accent-color);
     }
 }
+
+
+@media screen and (min-width: 1728px){
+    .footer{
+        padding: 3em 0;
+    }
+    .footer__list{
+        border-left: 1px solid var(--tertiary-accent-color);
+        padding-left:1em;
+    }
+}
