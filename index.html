@@ -90,59 +90,61 @@
     <section class="carousel">
         <h2 class="carousel__title">Novos lançamentos</h2>
         <!-- Slider main container -->
-        <div class="swiper">            
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+        <div class="carousel__container">
+            <div class="swiper">            
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
 
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                    <img class="carousel__image" src="./assets/ApacheKafka.svg" alt="Livro Apache Kafka">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img class="carousel__image" src="./assets/ApacheKafka.svg" alt="Livro Apache Kafka">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="carousel__image" src="./assets/Liderança.svg" alt="Livro Liderança">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="carousel__image" src="./assets/Javascript.svg" alt="Livro Javascript">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="carousel__image" src="./assets/Acessibilidade.svg" alt="Livro Acessibilidade">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="carousel__image" src="./assets/Portugol.svg" alt="Livro Portugol">
+                    </div>
                 </div>
-                <div class="swiper-slide">
-                    <img class="carousel__image" src="./assets/Liderança.svg" alt="Livro Liderança">
-                </div>
-                <div class="swiper-slide">
-                    <img class="carousel__image" src="./assets/Javascript.svg" alt="Livro Javascript">
-                </div>
-                <div class="swiper-slide">
-                    <img class="carousel__image" src="./assets/Acessibilidade.svg" alt="Livro Acessibilidade">
-                </div>
-                <div class="swiper-slide">
-                    <img class="carousel__image" src="./assets/Portugol.svg" alt="Livro Portugol">
-                </div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-        
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-        <div class="card">
-            <!-- 1a LINHA -->
-            <div class="card__description">
-                <!-- 1a coluna -->
-                <div class="description">
-                    <h3 class="description__title">Talvez você também se interesse por...</h3>
-                    <h2 class="description__title-book">Angular 11 e Firebase</h2>
-                    <p class="description__text">Construindo uma aplicação integrada com a plataforma do Google.</p>
+            <div class="card">
+                <!-- 1a LINHA -->
+                <div class="card__description">
+                    <!-- 1a coluna -->
+                    <div class="description">
+                        <h3 class="description__title">Talvez você também se interesse por...</h3>
+                        <h2 class="description__title-book">Angular 11 e Firebase</h2>
+                        <p class="description__text">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    </div>
+                    <!-- 2a coluna -->
+                    <img src="/assets/Angular.svg" class="description__image" alt="Logotipo Angular">
                 </div>
-                <!-- 2a coluna -->
-                <img src="/assets/Angular.svg" class="description__image" alt="Logotipo Angular">
-            </div>
-            <!-- 2a LINHA-->
-             <div class="card__buttons">
-                <!-- 1a coluna-->
-                <ul class="card__buttons__list">
-                    <li class="card__buttons__list__item">
-                        <img src="./assets/Favoritos.svg" alt="Favoritar livro">
-                    </li>
-                    <li class="card__buttons__list__item">
-                        <img src="./assets/Compras.svg" alt="Adicionar ao carrinho de compras">
-                    </li>
-                </ul>
-                <!-- 2a coluna -->
-                <a class="card__buttons__anchor">Saiba mais</a>
+                <!-- 2a LINHA-->
+                <div class="card__buttons">
+                    <!-- 1a coluna-->
+                    <ul class="card__buttons__list">
+                        <li class="card__buttons__list__item">
+                            <img src="./assets/Favoritos.svg" alt="Favoritar livro">
+                        </li>
+                        <li class="card__buttons__list__item">
+                            <img src="./assets/Compras.svg" alt="Adicionar ao carrinho de compras">
+                        </li>
+                    </ul>
+                    <!-- 2a coluna -->
+                    <a class="card__buttons__anchor">Saiba mais</a>
+                </div>
             </div>
         </div>
     </section>
