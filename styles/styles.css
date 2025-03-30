@@ -17,6 +17,7 @@
     --primary-accent-color:#eb9800;
     --secondary-accent-color:#326589;
     --tertiary-accent-color:#858585;
+    --quaternary-accent-color:#474646;
 
     --primary-gradient:linear-gradient(97.54deg, var(--tertiary-color) 35.49%, var(--secondary-accent-color) 163.37%);
 
