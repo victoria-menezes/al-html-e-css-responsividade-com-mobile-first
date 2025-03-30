@@ -153,63 +153,65 @@
     <section class="carousel">
         <h2 class="carousel__title">Mais vendidos</h2>
         <!-- Slider main container -->
-        <div class="swiper">            
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+         <div class="carousel__container">
+            <div class="swiper">            
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
 
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                    <img class="carousel__image" src="./assets/ApacheKafka.svg" alt="Livro Apache Kafka">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img class="carousel__image" src="./assets/ApacheKafka.svg" alt="Livro Apache Kafka">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="carousel__image" src="./assets/Liderança.svg" alt="Livro Liderança">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="carousel__image" src="./assets/Javascript.svg" alt="Livro Javascript">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="carousel__image" src="./assets/Acessibilidade.svg" alt="Livro Acessibilidade">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="carousel__image" src="./assets/Portugol.svg" alt="Livro Portugol">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="carousel__image" src="./assets/Guia Front-end.svg" alt="Livro Guia Front-end">
+                    </div>
                 </div>
-                <div class="swiper-slide">
-                    <img class="carousel__image" src="./assets/Liderança.svg" alt="Livro Liderança">
-                </div>
-                <div class="swiper-slide">
-                    <img class="carousel__image" src="./assets/Javascript.svg" alt="Livro Javascript">
-                </div>
-                <div class="swiper-slide">
-                    <img class="carousel__image" src="./assets/Acessibilidade.svg" alt="Livro Acessibilidade">
-                </div>
-                <div class="swiper-slide">
-                    <img class="carousel__image" src="./assets/Portugol.svg" alt="Livro Portugol">
-                </div>
-                <div class="swiper-slide">
-                    <img class="carousel__image" src="./assets/Guia Front-end.svg" alt="Livro Guia Front-end">
-                </div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-        
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-        <div class="card">
-            <!-- 1a LINHA -->
-            <div class="card__description">
-                <!-- 1a coluna -->
-                <div class="description">
-                    <h3 class="description__stars">★★★★★</h3>
-                    <h3 class="description__title">Autora do Mês</h3>
-                    <h2 class="description__title-book">Juliana Agarikov</h2>
-                    <p class="description__text">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+            <div class="card">
+                <!-- 1a LINHA -->
+                <div class="card__description">
+                    <!-- 1a coluna -->
+                    <div class="description">
+                        <h3 class="description__stars">★★★★★</h3>
+                        <h3 class="description__title">Autora do Mês</h3>
+                        <h2 class="description__title-book">Juliana Agarikov</h2>
+                        <p class="description__text">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                    </div>
+                    <!-- 2a coluna -->
+                    <img src="/assets/Perfil-escritora 1.svg" class="description__image" alt="Foto de Juliana Agarikov">
                 </div>
-                <!-- 2a coluna -->
-                <img src="/assets/Perfil-escritora 1.svg" class="description__image" alt="Foto de Juliana Agarikov">
-            </div>
-            <!-- 2a LINHA-->
-             <div class="card__buttons">
-                <!-- 1a coluna-->
-                <ul class="card__buttons__list">
-                    <li class="card__buttons__list__item">
-                        <img src="./assets/Favoritos.svg" alt="Favoritar livro">
-                    </li>
-                    <li class="card__buttons__list__item">
-                        <img src="./assets/Compras.svg" alt="Adicionar ao carrinho de compras">
-                    </li>
-                </ul>
-                <!-- 2a coluna -->
-                <a class="card__buttons__anchor">Saiba mais</a>
+                <!-- 2a LINHA-->
+                <div class="card__buttons">
+                    <!-- 1a coluna-->
+                    <ul class="card__buttons__list">
+                        <li class="card__buttons__list__item">
+                            <img src="./assets/Favoritos.svg" alt="Favoritar livro">
+                        </li>
+                        <li class="card__buttons__list__item">
+                            <img src="./assets/Compras.svg" alt="Adicionar ao carrinho de compras">
+                        </li>
+                    </ul>
+                    <!-- 2a coluna -->
+                    <a class="card__buttons__anchor">Saiba mais</a>
+                </div>
             </div>
         </div>
     </section>

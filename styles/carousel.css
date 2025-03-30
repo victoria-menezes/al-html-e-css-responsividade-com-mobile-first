@@ -123,3 +123,35 @@
         margin: 1em auto;
     }
 }
+
+
+@media screen and (min-width: 1728px){
+    .carousel__container{
+        display:flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+        gap:3em;
+    }
+
+    .swiper-pagination{
+        margin:1em 0;
+    }
+    .swiper{
+        width: 50%;
+    }
+
+    .card{
+        margin-top:50px;
+        width: 60%;
+    }
+
+    .description__title{
+        font-size:var(--font-size-h1);
+        line-height: var(--font-size-h1);
+    }
+
+    .description{
+        font-size:var(--font-size);
+        margin-right:2em;
+    }
+}
